@@ -1,0 +1,64 @@
+site_name: 内网安全从零开始
+site_url: https://pve.sqlsec.com
+site_author: 国光 & 猪老师
+site_description: "内网安全从零开始红队教程"
+repo_name: IntranetSecurity
+repo_url: https://github.com/sqlsec/IntranetSecurity
+copyright: Copyright &copy;  2023 - 2023 国光 & 猪老师
+theme:
+  language: zh
+  custom_dir: material
+  name: material
+  icon:
+    logo: simple/windows11
+    search: octicons/terminal-16
+    repo: simple/gitpod
+  favicon: https://image.3001.net/images/20230922/1695351874_650d04423b51f03775f17.png
+  plugins:
+    - search:
+      separator: '[\s\u200b\-]'
+    - offline
+  palette:
+    # 夜间模式
+    - scheme: slate
+      primary: black
+      accent: green
+      toggle:
+        icon: octicons/sun-24
+        name: 切换日间模式
+
+    # 日间模式
+    - scheme: default
+      toggle:
+        icon: octicons/light-bulb-24
+        name: 切换夜间模式
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sqlsec
+    - icon: simple/securityscorecard
+      link: https://web.sqlsec.com\
+    - icon: simple/gravatar
+      link: https://www.sqlsec.com
+markdown_extensions:
+  - attr_list
+
+nav:
+  - "index.md"
+  - 准备工作:
+    - 硬件配置: "1/1.md"

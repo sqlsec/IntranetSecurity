@@ -1,0 +1,30 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "main.html" %}
+{% block tabs %}
+  {{ super() }}
+  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__image">
+          <img src="https://image.3001.net/images/20230925/1695631240_6511478837719b73da6fc.png" alt="" draggable="false">
+        </div>
+        <div class="mdx-hero__content">
+          <br/>
+          <h1>内网安全从零开始</h1>
+          <p>{{ config.site_description }}. 这可能是国内最系统最适合小白的内网安全教程</p>
+          <a href="{{ '/1/1/' | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+            快速开始
+          </a>
+          <a href="{{ '/1/1/' | url }}" title="Material for MkDocs Insiders" class="md-button">
+            课程咨询
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}
